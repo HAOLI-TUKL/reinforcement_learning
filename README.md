@@ -41,3 +41,6 @@ The cart and pole problem consists of a cart that can move left and right along 
          * Requires a pass to the target network for the next state
       9. Gradient descent updates weights in the policy network to minimize loss.
          * After x time steps, weights in the target network are updated to the weights in the policy network.
+ ## final plot after 1000 episodes
+ ![cartport1](https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/cartpole2.png)
+
