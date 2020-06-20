@@ -10,13 +10,17 @@ This grid is our environment where S is the agent’s starting point, and it’s
 ![game1](https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/game1.png)
 The agent can navigate left, right, up, and down, and the episode ends when the agent reaches the goal or falls in a hole. It receives a reward of one if it reaches the goal, and zero otherwise.
 ![game2](https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/game2.png)
-## pseudo code for drl implementation
+
+## pseudo code for Q learning implementation
 
 1. Initialize all Q-values in the Q-table to 0. 
 2. For each time-step in each episode:
    1. Choose an action ( considering the exploration-exploitation trade-off). 
    2. Observe the reward and next state.
    3. Update the Q-value function ( using the formula we gave that will, overtime, make the Q-value function converge to the right hand side of the Bellman equation).
+   
+## Q table after learning
+<img src="https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/game3.png" alt="none" width="500" height="313" align="bottom" />
 
 
 # Deep reinforcement learning for the cart and pole problem
@@ -28,7 +32,7 @@ The cart and pole problem consists of a cart that can move left and right along 
  degrees from vertical or when the cart moves more than 
 2.4
  units from the center of the screen.
-![cartport1](https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/cartpole1.png)
+<img src="https://github.com/HAOLI-TUKL/reinforcement_learning/blob/master/images/cartpole1.png" alt="none" width="500" height="313" align="bottom" />
 ## pseudo code for drl implementation
 
 1. Initialize replay memory capacity. 
